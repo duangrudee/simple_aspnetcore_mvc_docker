@@ -1,0 +1,1 @@
+# simple_aspnetcore_mvc_docker
