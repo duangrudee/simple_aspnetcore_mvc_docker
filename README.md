@@ -1,4 +1,4 @@
-# simple_aspnetcore_mvc_docker
+# Simple Asp.NET Core (MVC) running in Docker Container with Sql Server database
 
 This project was created by following the guideline in [Quickstart: Compose and ASP.NET Core with SQL Server](https://docs.docker.com/compose/aspnet-mssql-compose/)
 
@@ -23,7 +23,7 @@ This project was created by following the guideline in [Quickstart: Compose and 
 4. Browse the website through [http://localhost:8000](http://localhost:8000)
 
 ## How I got here
-#### Bunch of dockers command to get the working directory where it is rightnow (just in case the above link isn't working)
+#### a set of commands to get the working directory where it is right now (just in case the above link isn't working)
 1. Create a Docker container ASP.NET core build image and create ASP.NET Core project using MVC template
 
 ``$ docker run -v ${PWD}:/app --workdir /app microsoft/aspnetcore-build:lts dotnet new mvc --auth Individual``
